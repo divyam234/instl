@@ -24,17 +24,17 @@ Alternatively, you can create your own commands by using the following URL struc
 #### Windows
 
 ```powershell
-iwr instl.vercel.app/{username}/{reponame}/windows | iex
+iwr https://instl.vercel.app/{username}/{reponame}/windows | iex
 ```
 
 #### macOS
 
 ```bash
-curl -sSL instl.vercel.app/{username}/{reponame}/macos | bash
+curl -sSL https://instl.vercel.app/{username}/{reponame}/macos | bash
 ```
 
 #### Linux
 
 ```bash
-curl -sSL instl.vercel.app/{username}/{reponame}/linux | bash
+curl -sSL https://instl.vercel.app/{username}/{reponame}/linux | bash
 ```
