@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
+	"github.com/divyam234/instl/pkg/handlers"
 	"github.com/gorilla/mux"
-	"github.com/installer/instl/internal/pkg/handlers"
 )
 
 func Handler(w http.ResponseWriter, r *http.Request) {

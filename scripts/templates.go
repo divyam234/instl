@@ -5,8 +5,8 @@ import (
 	"errors"
 	"text/template"
 
-	"github.com/installer/instl/internal/pkg/config"
-	"github.com/installer/instl/internal/pkg/platforms"
+	"github.com/divyam234/instl/pkg/config"
+	"github.com/divyam234/instl/pkg/platforms"
 )
 
 var (

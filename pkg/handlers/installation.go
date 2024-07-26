@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
+	"github.com/divyam234/instl/pkg/config"
+	"github.com/divyam234/instl/pkg/global"
+	"github.com/divyam234/instl/pkg/platforms"
+	"github.com/divyam234/instl/scripts"
 	"github.com/gorilla/mux"
-	"github.com/installer/instl/internal/pkg/config"
-	"github.com/installer/instl/internal/pkg/global"
-	"github.com/installer/instl/internal/pkg/platforms"
-	"github.com/installer/instl/scripts"
 )
 
 func Installation(w http.ResponseWriter, r *http.Request) {
