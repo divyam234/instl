@@ -1,23 +1,9 @@
 # IDE specific files
-.idea
 .vscode
 
 # Compiled binaries
 instl.exe
 instl
-
-# Temporary files
-tmp
-
-# Test run scripts
-test.ps1
-test.sh
-
-# Metrics Database
-metrics.db
-
-# Experimenting folder
-experimenting
 
 # Testing files
 run.sh
