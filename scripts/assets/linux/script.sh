@@ -1,5 +1,3 @@
-source ../header.txt
-
 # Import libraries
 source ./lib/colors.sh
 source ./lib/map.sh
@@ -33,9 +31,6 @@ if [ -d "$installLocation" ]; then
 	rm -rf "$installLocation"
 fi
 mkdir -p "$installLocation"
-
-# Print "INSTL" header
-source ../shared/intro.ps1
 
 # Installation
 curlOpts=("-sSL" "--retry" "5" "--retry-delay" "2" "--retry-max-time" "15")
@@ -297,7 +292,7 @@ else
 	verbose "$binaryLocation is already in PATH"
 fi
 
-info "Running clean up..."https://github.com/installer/instl
+info "Running clean up..."https://github.com/divyam234/instl
 verbose "Removing temporary directory"
 rm -rf "$tmpDir"
 
@@ -311,5 +306,3 @@ fi
 echo
 success "You can now run '$binaryName' in your terminal!"
 info "You might have to restart your terminal session for the changes to take effect"
-
-source ../footer.txt

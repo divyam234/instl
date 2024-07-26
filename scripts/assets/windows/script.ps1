@@ -1,5 +1,3 @@
-. "../header.txt"
-
 # Import libraries
 . "./lib/colors.ps1"
 
@@ -32,9 +30,6 @@ if (test-path $installLocation)
     Remove-Item -r -fo $installLocation
 }
 New-Item -Path $installLocation -ItemType Directory > $null
-
-# Print "INSTL" header
-. "../shared/intro.ps1"
 
 # Installation
 $headers = @{
@@ -250,5 +245,3 @@ else
 Write-Host ""
 success "You can now run '$command' in your terminal!"
 info "You might have to restart your terminal session for the changes to take effect"
-
-. "../footer.txt"
